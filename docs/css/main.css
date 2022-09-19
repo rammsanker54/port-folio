@@ -17,9 +17,6 @@
     margin: 0 auto;
     border-radius: 100%;
 }
-.button :hover{
-    color: aliceblue;
-}
 
 .logo{
 
@@ -69,7 +66,7 @@
     z-index: 1;
 }
 .banner-content{
- margin-top: 180px;
+ margin-top: 280px;
  position: absolute;
 left: 0;
 padding: 20px;
@@ -95,7 +92,7 @@ padding: 20px;
     bottom: 50px;
    right: 200px;
    padding: 10px;
-   background-color: hsl(264deg 100% 99%);
+   background-color: rgba(252, 250, 255, 0.927);
    color:  rgb(73, 99, 242);
    border-radius: 20px;
 }
@@ -257,7 +254,14 @@ padding: 20px;
     margin-right: 15px;
 }
 
+.fw-bold{
+  text-align: left;
+  padding-top: 10px;
 
+}
+.num{
+    text-align: right;
+}
 
 .images1{
     width: 150px;
@@ -294,8 +298,6 @@ padding: 20px;
     width: 50px;
     height: 50px;
 }
-
-
 
 .whatimg::after{
     content: "";
@@ -397,6 +399,9 @@ padding: 20px;
 .blogssection{
     padding-bottom: 100px;
 }
+.grey{
+    color: rgb(69, 70, 72);
+}
 
 
 
@@ -408,7 +413,7 @@ padding: 20px;
     justify-content: center;
     align-items: center;
     padding: 6px 20px 6px 20px;
-    margin: 5px;
+    margin: 8px;
   
 }
 .info,
